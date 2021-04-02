@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>сatalog</title>
+    <title>toys</title>
 </head>
 <body>
     <header class="header">
@@ -18,29 +18,50 @@
         </nav>
         <a class="header__search" href="#"><img src="images/icon_search.png" alt="иконка поиска"></a>
         <a class="header__contact" href="#">Contact  Us</a>
-    </header>
+    </header> 
     <main>
-            <h1 class="category__title">Category Products</h1>
+        <section>
+            <h1 class="category__title">Toy for kids</h1>
             <div class="breadcrumbs">
-                <a class="breadcrumbs__link" href="index.html">Home</a>
-                <p class="breadcrumbs__active">Catalog</p>
+            <a class="breadcrumbs__link" href="index.html">Home</a>
+            <a class="breadcrumbs__link" href="catalog.html">catalog</a>
+            <p class="breadcrumbs__active">Toys</p>
             </div>
-            <ul class="category__list">
-                <li class="category__item"> <a href="#">APPAREL KIDS</a></li>
-                <li class="category__item"> <a href="#">HOLIDAY SHOP</a></li>
-                <li class="category__item"> <a href="toys.html">TOYS</a></li>
+        </section>
+        <section class="filters">
+            <h2 class="filters__cost">Cost</h2>
+            <div class="filters__slider1">
+                <div class="filters__slider2">
+                    слайдер цены
+                </div>
+            </div>
+
+            <p class="filters__color">Color</p>
+            <ul class="color__list">
+                <li class="color__item"><button></button>Black</li>
+                <li class="color__item"><button></button>Blue</li>
+                <li class="color__item"><button></button>Green</li>
+                <li class="color__item"><button></button>White</li>
             </ul>
-            <ul class="category__list">
-                <li class="category__item"> <a href="#">ACCESSORIES</a></li>
-                <li class="category__item"> <a href="#">SALE</a></li>
-                <li class="category__item"> <a href="#">APPAREL ADULTS</a></li>
+            <p class="filters__delivery">Delivery</p>
+            <ul class="delivery__list">
+                <li class="delivery__item"><button></button>Free shipping</li>
+                <li class="delivery__item"><button></button>Fast shipping</li>    
             </ul>
-            <h2 class="description">Product Description</h2>
-                    <p class="description__text">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-                    <p class="description__text">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-                    <p class="description__text">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
-            
+            <p class="filters__amount">Amount</p>
+            <ul class="amount__list">
+                <li class="amount__item"><button></button>0-5</li>
+                <li class="amount__item"><button></button>10-20</li> 
+                <li class="amount__item"><button></button>20-50</li>   
+            </ul>
+            <button class="filters__button"></button>Apply
+        </section>
+        
+        
+
     </main>
+
+
     <footer class="footer">
         <section class="navigation">
             <h3 class="navigation__text">Navigation</h3>
@@ -84,5 +105,6 @@
            <a class="design" href="#">Web Design — Direct Line Development</a>
         </div>>
     </footer>
+    
 </body>
 </html>

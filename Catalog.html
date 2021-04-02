@@ -7,82 +7,82 @@
     <title>сatalog</title>
 </head>
 <body>
-    <header>
-        <img src="логотип.jpg" alt="логотип">
-        <nav>
-            <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="#">About Us</a></li>
+    <header class="header">
+        <img class="logo" src="images/logo.png" alt="логотип">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="#">Blog</a></li>
+                <li class="header__item"><a href="catalog.html">Catalog</a></li>
+                <li class="header__item"><a href="#">About Us</a></li>
             </ul>
         </nav>
-        <a href="#"><img src="иконка.jpg" alt="иконка поиска"></a>
-        <a href="#">Contact  Us</a>
-    </header> 
+        <a class="header__search" href="#"><img src="images/icon_search.png" alt="иконка поиска"></a>
+        <a class="header__contact" href="#">Contact  Us</a>
+    </header>
     <main>
-            <h1>Category Products</h1>
-            <div>
-                <a href="index.html">Home</a>
-                <p>Catalog</p>
+            <h1 class="category__title">Category Products</h1>
+            <div class="breadcrumb">
+                <a class="breadcrumb__home" href="index.html">Home</a>
+                <p class="breadcrumb__catalog">Catalog</p>
             </div>
-            <ul>
-                <li> <a href="#">APPAREL KIDS</a></li>
-                <li> <a href="#">HOLIDAY SHOP</a></li>
-                <li> <a href="toys.html">TOYS</a></li>
+            <ul class="category__list">
+                <li class="category__item"> <a href="#">APPAREL KIDS</a></li>
+                <li class="category__item"> <a href="#">HOLIDAY SHOP</a></li>
+                <li class="category__item"> <a href="toys.html">TOYS</a></li>
             </ul>
-            <ul>
-                <li> <a href="#">ACCESSORIES</a></li>
-                <li> <a href="#">SALE</a></li>
-                <li> <a href="#">APPAREL ADULTS</a></li>
+            <ul class="category__list">
+                <li class="category__item"> <a href="#">ACCESSORIES</a></li>
+                <li class="category__item"> <a href="#">SALE</a></li>
+                <li class="category__item"> <a href="#">APPAREL ADULTS</a></li>
             </ul>
-            <h2>Product Description</h2>
-                    <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-                    <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-                    <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            <h2 class="description">Product Description</h2>
+                    <p class="Description__text">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
+                    <p class="Description__text">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
+                    <p class="Description__text">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
             
     </main>
-    <footer>
+    <footer class="footer">
+        <section class="navigation">
+            <h3 class="navigation__text">Navigation</h3>
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#">About Us</a></li>
+                <li class="navigation__item"><a href="#">Blog</a></li>
+                <li class="navigation__item"><a href="#">Design Services</a></li>
+                <li class="navigation__item"><a href="#">Featured On</a></li>
+                <li class="navigation__item"><a href="#">2018 Holiday Catalog</a></li>
+                <li class="navigation__item"><a href="#">Shop By Designer</a></li>
+            </ul>
+            <h3 class="navigation__text">Customer Information</h3>
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#">Contact Us</a></li>
+                <li class="navigation__item"><a href="#">Sale Exclusions</a></li>
+                <li class="navigation__item"><a href="#">Shipping & Returns</a></li>
+                <li class="navigation__item"><a href="#">Terms & Conditions</a></li>
+                <li class="navigation__item"><a href="#">Privacy Policy</a></li>
+                <li class="navigation__item"><a href="#">Search</a></li>
+            </ul>
+            <h3 class="navigation__text">Connect</h3>
+            <input class="footer__input" type="text">
+            <button class="button">Join</button>
+            <ul class="social__list">
+                <li class="social__item"><a href="#"><img src="images/Facebook.png" alt="иконка"></a></li>
+                <li class="social__item"><a href="#"><img src="images/Twitter.png" alt="иконка"></a></li>
+                <li class="social__item"><a href="#"><img src="images/Pinterest.png" alt="иконка"></a></li>
+                <li class="social__item"><a href="#"><img src="images/Instagram.png" alt="иконка"></a></li>
+            </ul>
+         </section>
         <div>
-            <h3>Navigation</h3>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Design Services</a></li>
-                <li><a href="#">Featured On</a></li>
-                <li><a href="#">2018 Holiday Catalog</a></li>
-                <li><a href="#">Shop By Designer</a></li>
+            <p class="copyright">Company Rating</p>
+            <ul class="rating">
+                <li class="rating"><button>звездочка</button></li>
+                <li class="rating"><button>звездочка</button></li>
+                <li class="rating"><button>звездочка</button></li>
+                <li class="rating"><button>звездочка</button></li>
+                <li class="rating"><button>звездочка</button></li>
             </ul>
-            <h3>Customer Information</h3>
-            <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Sale Exclusions</a></li>
-                <li><a href="#">Shipping & Returns</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Search</a></li>
-            </ul>
-            <h3>Connect</h3>
-            <input type="text">
-            <button>Join</button>
-            <ul>
-                <li><a href="#"><img src="f.jpg" alt="иконка"></a></li>
-                <li><a href="#"><img src="f.jpg" alt="иконка"></a></li>
-                <li><a href="#"><img src="f.jpg" alt="иконка"></a></li>
-                <li><a href="#"><img src="f.jpg" alt="иконка"></a></li>
-            </ul>
-        </div>
-        <div>
-             <p>Company Rating</p>
-             <ul>
-                 <li><button>звездочка</button></li>
-                 <li><button>звездочка</button></li>
-                 <li><button>звездочка</button></li>
-                 <li><button>звездочка</button></li>
-                 <li><button>звездочка</button></li>
-             </ul>
-             <p>Copyright © 2018 Dlk • Design Life Kids</p>
-            <a href="#">Web Design — Direct Line Development</a>
-        </div>
+            <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
+           <a class="Design" href="#">Web Design — Direct Line Development</a>
+        </div>>
     </footer>
 </body>
 </html>

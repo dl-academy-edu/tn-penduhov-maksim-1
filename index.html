@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="css/common.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Crimson+Text:ital,wght@1,400;1,700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>index</title>
 </head>
 <body>
@@ -44,7 +42,6 @@
             <ul class="category__list dots_none">
                <li class="category__item"> 
                    <a href="#">APPAREL KIDS</a>
-                   <span></span>
                 </li>
                <li class="category__item"> 
                    <a href="#">HOLIDAY SHOP</a>
@@ -75,15 +72,15 @@
         </section>
         <section class="delivery">
             <img src="images/image_delivery.png" alt="картинка с тетенькой">
-            <div class="delivery__1">
+            <div class="delivery__container">
                 <h2 class="delivery__title">Delivery</h2>
                     <ul class="delivery__list dots_none">
                         <li class="delivery__item"><button>Delivery</button></li>
                         <li class="delivery__item"><button>Guarantee</button></li>
                         <li class="delivery__item"><button>Credit</button></li>
                     </ul>
-                <p class="delivery__text1">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                <p class="delivery__text2">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                <p class="delivery__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <p class="delivery__text">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
 
                 <a class="button" href="#">LEARN MORE</a>
             </div>
@@ -98,26 +95,23 @@
              </ul>
         </section>
         <section class="info">
-        <div class="info__design">    
-            <h2 class="info__title">Design Life Kids</h2>
-            <div class="info__bacground">
-            <h3 class="info__desc">About Us</h3>
-            <p class="info__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-            <a class="button" href="#">buy now</a>
+            <div class="info__wrapper">    
+                <h2 class="info__title">Design Life Kids</h2>
+                <h3 class="info__desc">About Us</h3>
+                <p class="info__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <a class="button" href="#">buy now</a>
+            </div> 
+            <div class="info__wrapper">
+                <h2 class="info__title">Contacts</h2>
+                <p class="info__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <a class="info__map" href="#">карта(подумал что надо ссылку делать)</a>
+
             </div>
-        </div> 
-        <div class="info__contacts">
-             <h2 class="info__title">Contacts</h2>
-             <div class="info__bacground">
-             <p class="info__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-             <a class="info__map" href="#">карта(подумал что надо ссылку делать)</a>
-            </div>
-        </div>
         </section>
     </main>
     <footer class="footer">
-        <section class="navigation">
-            <div>
+        <section class="navigation container">
+            <div class="footer__width">
                 <h3 class="navigation__text">Navigation</h3>
                 <ul class="navigation__list dots_none">
                     <li class="navigation__item">
@@ -140,7 +134,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="footer__width">
                 <h3 class="navigation__text">Customer Information</h3>
                 <ul class="navigation__list dots_none">
                     <li class="navigation__item">
@@ -163,7 +157,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="footer__width">
                 <h3 class="navigation__text">Connect</h3>
                 <input class="footer__input" type="text">
                 <button class="button">Join</button>
@@ -176,17 +170,20 @@
             </div>
             
          </section>
-        <div class="navigation__final">
-            <p class="copyright">Company Rating</p>
-            <ul class="rating dots_none">
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-            </ul>
-            <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
-            <a class="design" href="#">Web Design — Direct Line Development</a>
+        <div class="navigation__final container">
+            <div class="company__rating footer__width">
+                <p class="copyright">Company Rating</p>
+                <ul class="rating dots_none">
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                </ul>
+            </div>
+           
+            <p class="copyright footer__width">Copyright © 2018 Dlk • Design Life Kids</p>
+            <a class="design footer__width" href="#">Web Design — Direct Line Development</a>
         </div>
     </footer>
 </body>

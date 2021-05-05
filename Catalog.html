@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/common.css">
-
+    <link rel="stylesheet" href="css/catalog.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Crimson+Text:ital,wght@1,400;1,700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>сatalog</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <img class="logo" src="images/logo.png" alt="логотип">
         <nav class="header__nav">
             <ul class="header__list dots_none">
@@ -23,70 +23,119 @@
         <a class="header__search" href="#"><img src="images/icon_search.png" alt="иконка поиска"></a>
         <a class="header__contact" href="#">Contact  Us</a>
     </header>
-    <main>
+    <main class="container">
             <h1 class="category__title">Category Products</h1>
             <div class="breadcrumbs">
                 <a class="breadcrumbs__link" href="index.html">Home</a>
                 <p class="breadcrumbs__active">Catalog</p>
             </div>
-            <ul class="category__list">
-                <li class="category__item"> <a href="#">APPAREL KIDS</a></li>
-                <li class="category__item"> <a href="#">HOLIDAY SHOP</a></li>
-                <li class="category__item"> <a href="toys.html">TOYS</a></li>
+
+            <ul class="category__list dots_none">
+                <li class="category__item"> 
+                    <a href="#">APPAREL KIDS</a>
+                </li>
+                <li class="category__item"> 
+                    <a href="#">HOLIDAY SHOP</a>
+                </li>
+                <li class="category__item"> 
+                    <a href="toys.html">TOYS</a>
+                </li>
             </ul>
-            <ul class="category__list">
-                <li class="category__item"> <a href="#">ACCESSORIES</a></li>
-                <li class="category__item"> <a href="#">SALE</a></li>
-                <li class="category__item"> <a href="#">APPAREL ADULTS</a></li>
+
+            <ul class="category__list dots_none list__end">
+                <li class="category__item dots_none"> 
+                    <a href="#">ACCESSORIES</a>
+                </li>
+                <li class="category__item"> 
+                    <a href="#">SALE</a>
+                </li>
+                <li class="category__item"> 
+                    <a href="#">APPAREL ADULTS</a>
+                </li>
             </ul>
+
             <h2 class="description">Product Description</h2>
                     <p class="description__text">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
                     <p class="description__text">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-                    <p class="description__text">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+                    <p class="description__text footer__bottom">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
             
     </main>
     <footer class="footer">
-        <section class="navigation">
-            <h3 class="navigation__text">Navigation</h3>
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#">About Us</a></li>
-                <li class="navigation__item"><a href="#">Blog</a></li>
-                <li class="navigation__item"><a href="#">Design Services</a></li>
-                <li class="navigation__item"><a href="#">Featured On</a></li>
-                <li class="navigation__item"><a href="#">2018 Holiday Catalog</a></li>
-                <li class="navigation__item"><a href="#">Shop By Designer</a></li>
-            </ul>
-            <h3 class="navigation__text">Customer Information</h3>
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#">Contact Us</a></li>
-                <li class="navigation__item"><a href="#">Sale Exclusions</a></li>
-                <li class="navigation__item"><a href="#">Shipping & Returns</a></li>
-                <li class="navigation__item"><a href="#">Terms & Conditions</a></li>
-                <li class="navigation__item"><a href="#">Privacy Policy</a></li>
-                <li class="navigation__item"><a href="#">Search</a></li>
-            </ul>
-            <h3 class="navigation__text">Connect</h3>
-            <input class="footer__input" type="text">
-            <button class="button">Join</button>
-            <ul class="social__list">
-                <li class="social__item"><a href="#"><img src="images/Facebook.png" alt="иконка"></a></li>
-                <li class="social__item"><a href="#"><img src="images/Twitter.png" alt="иконка"></a></li>
-                <li class="social__item"><a href="#"><img src="images/Pinterest.png" alt="иконка"></a></li>
-                <li class="social__item"><a href="#"><img src="images/Instagram.png" alt="иконка"></a></li>
-            </ul>
+        <section class="navigation container">
+            <div class="footer__width">
+                <h3 class="navigation__text">Navigation</h3>
+                <ul class="navigation__list dots_none">
+                    <li class="navigation__item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Design Services</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Featured On</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">2018 Holiday Catalog</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Shop By Designer</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__width">
+                <h3 class="navigation__text">Customer Information</h3>
+                <ul class="navigation__list dots_none">
+                    <li class="navigation__item">
+                        <a href="#">Contact Us</a
+                    ></li>
+                    <li class="navigation__item">
+                        <a href="#">Sale Exclusions</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Shipping & Returns</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Search</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__width">
+                <h3 class="navigation__text">Connect</h3>
+                <input class="footer__input" type="text">
+                <button class="button">Join</button>
+                <ul class="social__list dots_none">
+                    <li class="social__item"><a href="#"><img src="images/ss/Facebook.png" alt="иконка"></a></li>
+                    <li class="social__item"><a href="#"><img src="images/ss/Twitter.png" alt="иконка"></a></li>
+                    <li class="social__item"><a href="#"><img src="images/ss/Pinterest.png" alt="иконка"></a></li>
+                    <li class="social__item"><a href="#"><img src="images/ss/Instagram.png" alt="иконка"></a></li>
+                </ul>
+            </div>
+            
          </section>
-        <div>
-            <p class="copyright">Company Rating</p>
-            <ul class="rating">
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-                <li class="rating"><button>звездочка</button></li>
-            </ul>
-            <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
-           <a class="design" href="#">Web Design — Direct Line Development</a>
-        </div>>
+        <div class="navigation__final container">
+            <div class="company__rating footer__width">
+                <p class="copyright">Company Rating</p>
+                <ul class="rating dots_none">
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                    <li class="rating"><button>звездочка</button></li>
+                </ul>
+            </div>
+           
+            <p class="copyright footer__width">Copyright © 2018 Dlk • Design Life Kids</p>
+            <a class="design footer__width" href="#">Web Design — Direct Line Development</a>
+        </div>
     </footer>
 </body>
 </html>

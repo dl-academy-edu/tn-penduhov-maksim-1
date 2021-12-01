@@ -27,9 +27,9 @@
     display: flex;
     justify-content: flex-start;
     margin-top: 50px;
-    
-   
+     
 }
+
 
 .category__item {
     font-family:  'Montserrat', sans-serif;
@@ -55,8 +55,10 @@
 
     margin-top: 23px;
 }
+   
+    
 
-.description {
+.description__title {
     margin-top: 55px;
     margin-bottom: 25px;
 }

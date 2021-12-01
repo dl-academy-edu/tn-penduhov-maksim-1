@@ -130,14 +130,23 @@ h3 {
 .company__rating{
     display: flex;
     flex-direction: row;
+    
 }
 
 .rating {
     display: flex;
+    
+}
+.rating button {
+    background: none;
+    border: none;
+    margin-right: 3px;
+    padding: 0px;
 }
 
 .copyright {
     color: #FFFFFF;
+    margin-right: 25px;
 }
 
 .navigation__final a {
